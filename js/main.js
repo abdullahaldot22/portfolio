@@ -25,7 +25,7 @@ if (window.screen.width > 500) {
 
 $(window).on('load resize',function(){
     if($(window).width() < 500){
-        window.location = window.location.origin + '/portfolio.me/pages/smartPhone/index.html';
+        window.location = window.location.origin + '/portfolio/pages/smartPhone/index.html';
     }
 });
 

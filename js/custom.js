@@ -1,7 +1,7 @@
 $(window).on('load resize',function(){
     if($(window).width() > 500){
         // window.location = window.location.origin;
-        window.location = window.location.origin + '/portfolio.me/index.html';
+        window.location = window.location.origin + '/portfolio/index.html';
     }
 });
 
