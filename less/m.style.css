@@ -69,8 +69,7 @@ img {
   background: #058C42;
   position: absolute;
   bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0px;
 }
 .doted {
   background-image: radial-gradient(rgba(149, 133, 132, 0.25) 2px, #0000 2px);
