@@ -47,6 +47,8 @@ function togglevis() {
     // alert('done');
     let showclass = document.getElementById('hide');
     let moreclass = document.getElementById('more');
+    let two = document.getElementById('two');
     showclass.classList.toggle('show');
     moreclass.innerHTML = moreclass.innerHTML == ' ..See more' ? ' ..See less' : ' ..See more' ;
+    two.classList.toggle('w-100');
 }
