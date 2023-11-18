@@ -1,9 +1,9 @@
-$(window).on('load resize',function(){
-    if($(window).width() > 500){
-        // window.location = window.location.origin;
-        window.location = window.location.origin + '/portfolio/index.html';
-    }
-});
+// $(window).on('load resize',function(){
+//     if($(window).width() > 500){
+//         // window.location = window.location.origin;
+//         window.location = window.location.origin + '/portfolio/index.html';
+//     }
+// });
 
 // $(window).on('load resize',function(){
 //     if($(window).width() > 500){
@@ -22,14 +22,14 @@ $('.dark-icon').on('click', function () {
     }
 });
 
-var typed4 = new Typed('.work-title', {
-    strings: ['I am a Fullstack-Developer ', 'I also work with React.js', "I want to learn more ..."],
-    typeSpeed: 140,
-    backSpeed: 48,
-    // attr: 'placeholder',
-    bindInputFocusEvents: true,
-    loop: true
-});
+// var typed4 = new Typed('.work-title', {
+//     strings: ['I am a Fullstack-Developer ', 'I also work with React.js', "I want to learn more ..."],
+//     typeSpeed: 140,
+//     backSpeed: 48,
+//     // attr: 'placeholder',
+//     bindInputFocusEvents: true,
+//     loop: true
+// });
 
 $('.slickSlide').slick({
     fade: true,

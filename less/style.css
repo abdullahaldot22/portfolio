@@ -176,7 +176,8 @@ body #fullpage section.one .content .online .work-title {
   font-weight: 500;
   font-size: 18px;
   color: inherit;
-  letter-spacing: 2.8px;
+  /* letter-spacing: 2.8px; */
+  letter-spacing: 1px;
 }
 body #fullpage section.one .content .online span {
   display: inline-block;
@@ -207,6 +208,10 @@ body #fullpage section.two .wrapper p.about-light {
 body #fullpage section.two .wrapper p.about-details {
   font-size: 16px;
 }
+.bold{
+  font-weight: 900;
+  color: #74f5db;
+}
 body #fullpage section.three .skill-set ul {
   display: flex;
   flex-flow: row wrap;
@@ -231,13 +236,16 @@ body #fullpage section.three .skill-set ul .single-skill {
 body #fullpage section.three .skill-set ul .single-skill .parti img {
   box-sizing: border-box;
   border: 0 solid transparent inset;
-  width: 30px;
+  height: 40px;
   border-radius: 50%;
 }
 body #fullpage section.three .skill-set ul .single-skill .partii {
   padding-left: 12px;
   padding-right: 12px;
-  padding-bottom: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-bottom: 7px; */
 }
 body #fullpage section.three .skill-set ul .single-skill .partii h6 {
   font-family: 'Cairo', sans-serif;
@@ -246,10 +254,11 @@ body #fullpage section.three .skill-set ul .single-skill .partii h6 {
   padding-top: 0.3rem;
   padding-bottom: 0.4rem;
   line-height: 13px;
-  font-size: 11px;
+  font-size: 12px;
+  font-weight: 500;
   color: inherit;
 }
-body #fullpage section.three .skill-set ul .single-skill .partii .progress {
+/* body #fullpage section.three .skill-set ul .single-skill .partii .progress {
   border-radius: 0px !important;
   height: 4px;
   width: 60px;
@@ -259,7 +268,7 @@ body #fullpage section.three .skill-set ul .single-skill .partii .progress {
 body #fullpage section.three .skill-set ul .single-skill .partii .progress .progress-bar {
   border-radius: 0px !important;
   background-color: #058C42;
-}
+} */
 body #fullpage section.three .skill-set ul .single-skill:hover {
   scale: 1.06;
 }
@@ -497,7 +506,7 @@ body #fullpage footer.ten .row .social .box .linkbox ul li.link a img {
   border: 3px solid #02343696;
   padding: 8px;
   border-radius: 14px;
-  width: 60px;
+  height: 60px;
   transition: all ease-out 0.1s;
 }
 body #fullpage footer.ten .row .social .box .linkbox ul li.link a:hover img {

@@ -74,14 +74,14 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-var typed4 = new Typed('.work-title', {
-    strings: ['I am a Fullstack-Developer ','I work with PHP | Laravel | MySql ' , 'I also work with React.js', "I want to learn more ..."],
-    typeSpeed: 65,
-    backSpeed: 48,
-    // attr: 'placeholder',
-    bindInputFocusEvents: true,
-    loop: true
-});
+// var typed4 = new Typed('.work-title', {
+//     strings: ['I am a Fullstack-Developer ','I work with PHP | Laravel | MySql ' , 'I also work with React.js', "I want to learn more ..."],
+//     typeSpeed: 65,
+//     backSpeed: 48,
+//     // attr: 'placeholder',
+//     bindInputFocusEvents: true,
+//     loop: true
+// });
 
 $('.slickSlide').slick({
     fade: true,
