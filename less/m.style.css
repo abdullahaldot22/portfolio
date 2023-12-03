@@ -123,6 +123,7 @@ body section.one .content h5.shead-font {
 }
 body section.one .content h1.head-font {
   text-align: center;
+  width: 100%;
   padding-top: 5px;
   font-weight: 900;
   font-size: 35px;
