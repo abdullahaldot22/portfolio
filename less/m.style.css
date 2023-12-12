@@ -315,7 +315,7 @@ body section.five .row .part-ii .projects ul li .project:hover {
   scale: 1.04;
 }
 body section.eight {
-  padding-bottom: 90px;
+  padding-bottom: 140px;
 }
 body section.eight .row .education ul {
   display: flex;
@@ -378,7 +378,7 @@ body section.eight .row .education ul li.part .box:hover {
   scale: 1.03;
 }
 body section.nine {
-  padding-bottom: 45px;
+  padding-bottom: 130px;
 }
 body section.nine .row .fp-controlArrow.fp-arrow {
   display: none !important;
