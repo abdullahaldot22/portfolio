@@ -220,6 +220,7 @@ body #fullpage section.three .skill-set ul {
 }
 body #fullpage section.three .skill-set ul .single-skill {
   box-sizing: border-box;
+  width: 160px;
   margin: 6px 5px;
   padding: 8px 10px 8px 10px;
   background-color: #F4F2F3;
