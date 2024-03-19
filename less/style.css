@@ -230,9 +230,9 @@ body #fullpage section.three .skill-set ul .single-skill {
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  transition: all ease-in-out 0.05s;
-  -webkit-transition: all 2s cubic-bezier(0.58, 0.01, 0, 0.99);
-  transition: all 2s cubic-bezier(0.58, 0.01, 0, 0.99);
+  transition: all cubic-bezier(0.58, 0.01, 0, 0.99) 0.05s;
+  -webkit-transition: all 0.1s cubic-bezier(0.58, 0.01, 0, 0.99);
+/*  transition: all 0.1s cubic-bezier(0.58, 0.01, 0, 0.99);*/
 }
 body #fullpage section.three .skill-set ul .single-skill .parti img {
   box-sizing: border-box;
